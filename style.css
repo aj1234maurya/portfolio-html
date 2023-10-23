@@ -1,0 +1,42 @@
+.skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.aj1234maurya {
+  background-color: black;
+}
+#myheader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.nav-link:active {
+  color: blue;
+  font-weight: bold;
+}
+.picture {
+  background-image: linear-gradient(black, 20%, red);
+  margin: 0%;
+}
+.whitepic {
+  border-radius: 20px;
+}
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: white;
+}
+
+#projects {
+  margin-top: 50px;
+}
+
+span {
+  color: white;
+}
+a {
+  color: white !important;
+}
