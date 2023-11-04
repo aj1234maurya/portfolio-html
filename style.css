@@ -1,28 +1,39 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.skill {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.aj1234maurya {
-  background-color: black;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 #myheader {
   position: fixed;
+  display: flex;
   top: 0;
   width: 100%;
   z-index: 100;
 }
-header{
+.aj1234maurya {
+  background-color: black;
+}
+header {
   padding: 20px;
 }
 .nav-link:active {
   color: blue;
   font-weight: bold;
 }
+i {
+  font-size: 2rem;
+  display: none;
+}
+.skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .picture {
   background-image: linear-gradient(black, 20%, red);
   margin: 0%;
@@ -41,23 +52,13 @@ body {
 #projects {
   margin-top: 50px;
 }
+.project-list h2 {
+  text-transform: uppercase;
+}
 
 span {
   color: white;
 }
 a {
   color: white !important;
-}
-@media (max-width: 600px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  header li {
-    display: none;
-  }
-  i {
-    display: block;
-  }
 }
